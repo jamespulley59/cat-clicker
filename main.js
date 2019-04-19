@@ -5,5 +5,8 @@ const click = document.querySelector('#click');
 
 click.textContent = counter;
 
-cat.addEventListener('#click', ()=>{})
+cat.addEventListener('click', ()=>{
+    counter++;
+    click.textContent = counter;
+})
 
